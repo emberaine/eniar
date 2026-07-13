@@ -4,6 +4,7 @@ set -eoux pipefail
 
 IMAGE_PRETTY_NAME="Eniar"
 IMAGE_LIKE="fedora"
+IMAGE_VENDOR="emberaine"
 HOME_URL="https://bazzite.gg"
 DOCUMENTATION_URL="https://docs.bazzite.gg"
 SUPPORT_URL="https://discord.bazzite.gg"
