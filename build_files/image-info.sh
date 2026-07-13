@@ -3,6 +3,7 @@
 set -eoux pipefail
 
 IMAGE_PRETTY_NAME="Eniar"
+IMAGE_NAME="eniar"
 IMAGE_LIKE="fedora"
 IMAGE_VENDOR="emberaine"
 HOME_URL="https://bazzite.gg"
