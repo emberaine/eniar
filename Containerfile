@@ -38,6 +38,10 @@ RUN --mount=type=bind,from=ctx,source=/,target=/ctx \
     /ctx/image-info.sh && \
     /ctx/build-initramfs.sh
 
+### SETUP FISH
+RUN rpm-ostree install fish
+ENV SHELL=/usr/bin/fish
+
 ### LINTING
 ## Verify final image and contents are correct.
 RUN bootc container lint
